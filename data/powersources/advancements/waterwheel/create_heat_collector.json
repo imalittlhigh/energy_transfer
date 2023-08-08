@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:copper_ingot"
+              ],
+              "nbt": "{powersources_cog:1b}"
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:blast_furnace"
+                ],
+                "nbt": "{RecipesUsed: {\"powersources:heat_collector/blaster\": 1}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+    "rewards": {
+      "function": "powersources:raycast/heat_collector/init"
+    }
+  }
+  

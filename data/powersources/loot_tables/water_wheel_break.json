@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Water Mill Core",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                
+                {
+                  "text": "- Connect chain to the front"
+                },
+                [
+                  {
+                    "text": "- "
+                  },
+                  {
+                    "keybind": "key.use"
+                  },
+                  {
+                    "text": " with Cog"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Lock: \"ÖöÖöÖöÖöÖöÖö\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

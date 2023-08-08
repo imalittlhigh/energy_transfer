@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:smoker",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Windmill Core",
+                  "color": "yellow"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "- Place chain in front"
+                  },
+                  {
+                    "text": "- Higher on chains = more power"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{RecipesUsed: {\"powersources:windmill/smoker\": 1}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

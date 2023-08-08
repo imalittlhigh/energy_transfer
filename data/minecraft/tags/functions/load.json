@@ -1,0 +1,9 @@
+{
+    "values": [
+        "etransfer:meta/load",
+        "etransfer:meta/second",
+        "powersources:meta/load",
+        "powersources:meta/10tick",
+        "powersources:meta/second"
+    ]
+    }

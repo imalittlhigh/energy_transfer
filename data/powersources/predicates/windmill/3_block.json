@@ -1,0 +1,48 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:hopper"
+            ],
+            "state": {
+              "facing": "down"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -2,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:chain"
+            ],
+            "state": {
+              "axis": "y"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -3,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:chain"
+            ],
+            "state": {
+              "axis": "y"
+            }
+          }
+        }
+      }
+    ]
+  }
+  

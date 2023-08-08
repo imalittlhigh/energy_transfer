@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "etransfer_crafting:wrench"
+        }
+      }
+    },
+    "rewards": {
+      "function": "etransfer_crafting:wrench"
+    }
+  }
+  

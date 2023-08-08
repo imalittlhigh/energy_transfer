@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:lava",
+              "minecraft:fire",
+              "minecraft:soul_fire",
+              "minecraft:lava_cauldron"
+            ]
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:campfire",
+              "minecraft:soul_campfire"
+            ],
+            "state": {
+              "lit": true
+            }
+          }
+        }
+      }
+    ]
+  }
+  
